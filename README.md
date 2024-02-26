@@ -10,7 +10,7 @@ python examples/pdf_to_image.py <pdf_file_path>
 
 # Create OCR text from images
 Solo
-~ tesseract has to be installed for the following, already. To use this in the cluster, use the right image here: bash run_docker_nikjou.sh  python ...
+~ tesseract has to be installed for the following, already. To use this in the cluster, use the correct image where tesseract is installed ( .. dvqa_image.sqsh ) 
 
 ```bash
 python preprocess/image_processing_layoutlmv3.py --input_file <image> 
