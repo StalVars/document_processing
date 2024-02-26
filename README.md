@@ -5,9 +5,8 @@
 
 ```bash
 mkdir images # this folder is required for putting the converted pdf pages into images 
-```bash
 python examples/pdf_to_image.py <pdf_file_path>
-
+```
 
 # Create OCR text from images
 Solo
@@ -15,8 +14,8 @@ Solo
 
 ```bash
 python preprocess/image_processing_layoutlmv3.py --input_file <image> 
-```bash
 python preprocess/image_processing_layoutlmv3.py --input_file <image> --output_file <outputjson>
+```
 
 
 
