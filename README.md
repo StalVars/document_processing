@@ -3,7 +3,9 @@
 
 # First convert pdf to images
 
+```bash
 mkdir images # this folder is required for putting the converted pdf pages into images 
+```bash
 python examples/pdf_to_image.py <pdf_file_path>
 
 
@@ -11,7 +13,9 @@ python examples/pdf_to_image.py <pdf_file_path>
 Solo
 ~ tesseract has to be installed for the following, already. To use this in the cluster, use the right image here: bash run_docker_nikjou.sh  python ...
 
+```bash
 python preprocess/image_processing_layoutlmv3.py --input_file <image> 
+```bash
 python preprocess/image_processing_layoutlmv3.py --input_file <image> --output_file <outputjson>
 
 
